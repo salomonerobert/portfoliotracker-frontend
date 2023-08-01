@@ -21,7 +21,7 @@ import { MultiLineChart } from "../charts/MulitLineChart";
 
 export const PortfolioPage=()=>{
   const { userEmail, portfolios, updatePortfolio, transactionTrigger } = useContext( UserContext );
-  const {portfolioId}=useParams();
+  const { portfolioId }= useParams();
   const navigate=useNavigate();
 
 
